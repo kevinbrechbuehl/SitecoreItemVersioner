@@ -13,4 +13,4 @@ There are some MSBuild targets which copies all needed files into a directory de
 The Item Versioner has been developed with Visual Studio 2012 and Sitecore 6.6. You should be able to work with lower versions as well.
 
 ## License
-The Sitecore Item Versioner is licensed under the LGPL. Please see [LICENSE.txt] (https://github.com/unic/SitecoreErrorManager/blob/master/LICENSE.txt) for more informations.
+The Sitecore Item Versioner is licensed under the LGPL. Please see [LICENSE.txt] (https://github.com/aquasonic/SitecoreItemVersioner/blob/master/LICENSE.txt) for more informations.
