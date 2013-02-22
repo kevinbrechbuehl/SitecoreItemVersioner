@@ -8,14 +8,20 @@ using System.Collections.Specialized;
 
 namespace SharedSource.ItemVersioner.Commands
 {
+    /// <summary>
+    /// Class for creating versions in each language.
+    /// </summary>
     public class CreateVersions : Command
     {
+        /// <summary>
+        /// Executes the command.
+        /// </summary>
+        /// <param name="context">The current context.</param>
         public override void Execute(CommandContext context)
         {
             Assert.ArgumentNotNull(context, "context");
             if (context.Items.Length != 1) return;
             
-
             Item item = context.Items[0];
             var nameValueCollection = new NameValueCollection();
             nameValueCollection["id"] = item.ID.ToString();
@@ -24,6 +30,13 @@ namespace SharedSource.ItemVersioner.Commands
             Sitecore.Context.ClientPage.Start(this, "Run", nameValueCollection); 
         }
 
+        /// <summary>
+        /// Get the state of the command. The command is always visible, but disabled if
+        /// there is already a version in each language or if the user has no permission
+        /// to edit the item.
+        /// </summary>
+        /// <param name="context">The current context.</param>
+        /// <returns>State of the command.</returns>
         public override CommandState QueryState(CommandContext context)
         {
             Assert.ArgumentNotNull(context, "context");
@@ -53,6 +66,11 @@ namespace SharedSource.ItemVersioner.Commands
         }
 
 
+        /// <summary>
+        /// Runs the command and create a version in each language where no version
+        /// already exists.
+        /// </summary>
+        /// <param name="args">The arguments.</param>
         protected void Run(ClientPipelineArgs args)
         {
             Assert.ArgumentNotNull(args, "args");
