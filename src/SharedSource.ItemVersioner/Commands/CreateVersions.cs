@@ -1,4 +1,17 @@
-﻿using Sitecore.Data.Items;
+﻿#region Copyright (C) Kevin Brechbühl - Unic AG
+
+// Copyright (C) Kevin Brechbühl - Unic AG
+// 
+// This module is free software: you can redistribute it and/or modify
+// it under the terms of the  GNU Lesser General Public License 
+// Version 3.0 as published by the Free Software Foundation.
+// 
+// You should have received a copy of the GNU Lesser General Public License
+// along with this module. If not, see http://opensource.org/licenses/lgpl-3.0.
+
+#endregion
+
+using Sitecore.Data.Items;
 using Sitecore.Data.Managers;
 using Sitecore.Diagnostics;
 using Sitecore.Globalization;
@@ -11,6 +24,7 @@ namespace SharedSource.ItemVersioner.Commands
     /// <summary>
     /// Class for creating versions in each language.
     /// </summary>
+    /// <author>Kevin Brechbühl - Unic AG</author>
     public class CreateVersions : Command
     {
         /// <summary>
