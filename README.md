@@ -28,3 +28,6 @@ The Item Versioner has been developed with Visual Studio 2012 and Sitecore 6.6. 
 
 ## License
 The Sitecore Item Versioner is licensed under the LGPL. Please see [LICENSE.txt] (https://github.com/aquasonic/SitecoreItemVersioner/blob/master/LICENSE.txt) for more informations.
+
+## Credits
+Thanks to Jakob Christensen for providing [NuGet installation scripts] (http://vsplugins.sitecore.net/Sitecore-NuGet.ashx) for adding Sitecore items during installation of a NuGet package. Also thanks to Ethan Truong for the [Sitecore NuGet Skeleton] (https://github.com/etruong42/Sitecore.NuGet.Skeleton) and the introduction on [how to create a Sitecore NuGet package] (http://blog.velir.com/index.php/2012/12/04/create-and-deploy-sitecore-modules-with-nuget/).
