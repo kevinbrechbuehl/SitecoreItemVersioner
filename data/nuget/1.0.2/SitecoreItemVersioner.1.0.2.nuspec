@@ -5,8 +5,8 @@
         <version>1.0.2</version>
         <title>Sitecore Item Versioner</title>
         <authors>Kevin Brechbühl</authors>
-        <licenseUrl>https://github.com/aquasonic/SitecoreItemVersioner/blob/master/LICENSE.txt</licenseUrl>
-        <projectUrl>https://github.com/aquasonic/SitecoreItemVersioner</projectUrl>
+        <licenseUrl>https://github.com/kevinbrechbuehl/SitecoreItemVersioner/blob/master/LICENSE.txt</licenseUrl>
+        <projectUrl>https://github.com/kevinbrechbuehl/SitecoreItemVersioner</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>The Sitecore Item Versioner module adds a new ribbon into the versions chunk of the Content Editor. With the new ribbon it is possible to initially create an item version in all configured languages (under /sitecore/system/Languages). It will only create a new version if there is not already a version in the specific language.
 

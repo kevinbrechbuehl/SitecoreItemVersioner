@@ -24,10 +24,10 @@ There is a NuGet package available to download on the [NuGet Gallery] (https://w
 Alternatively you can also download the Sitecore package from the [Sitecore Marketplace] (http://marketplace.sitecore.net/en/Modules/Sitecore_Item_Versioner.aspx) and install it with the _Installation Wizard_.
 
 ## Version
-The Item Versioner has been developed with Visual Studio 2012 and Sitecore 6.6. It is also tested on Sitecore 6.5 and Sitecore 7.0 You should be able to work with other versions as well. If you have some problems with any versions, please let me know by [adding an issue] (https://github.com/aquasonic/SitecoreItemVersioner/issues).
+The Item Versioner has been developed with Visual Studio 2012 and Sitecore 6.6. It is also tested on Sitecore 6.5 and Sitecore 7.0 You should be able to work with other versions as well. If you have some problems with any versions, please let me know by [adding an issue] (https://github.com/kevinbrechbuehl/SitecoreItemVersioner/issues).
 
 ## License
-The Sitecore Item Versioner is licensed under the LGPL. Please see [LICENSE.txt] (https://github.com/aquasonic/SitecoreItemVersioner/blob/master/LICENSE.txt) for more informations.
+The Sitecore Item Versioner is licensed under the LGPL. Please see [LICENSE.txt] (https://github.com/kevinbrechbuehl/SitecoreItemVersioner/blob/master/LICENSE.txt) for more informations.
 
 ## Credits
 Thanks to Jakob Christensen for providing [NuGet installation scripts] (http://vsplugins.sitecore.net/Sitecore-NuGet.ashx) for adding Sitecore items during installation of a NuGet package. Also thanks to Ethan Truong for the [Sitecore NuGet Skeleton] (https://github.com/etruong42/Sitecore.NuGet.Skeleton) and the introduction on [how to create a Sitecore NuGet package] (http://blog.velir.com/index.php/2012/12/04/create-and-deploy-sitecore-modules-with-nuget/).
